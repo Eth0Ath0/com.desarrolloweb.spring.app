@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<style>
+h1{
+color:#000000
+}
+h5{
+color:#00008B
+}
+
+p{
+color:#00008B 
+}
+
+</style>
+<meta charset="UTF-8">
+<title>Mi Perfil</title>
+
+</head>
+<body style="background-color:#DCDCDC;">
+
+<H1 th:text="${titulo}"></H1>
+<span th:text="${usuario.nombre}"></span>
+<span th:text="${usuario.apellido}"></span>
+
+
+<!--<H1 th:text="${usuario.nombre}"></H1> -->
+<!--  <H1 th:text="${usuario.apellido}"></H1>-->
+
+<h5 align="center"> Estudiante de Ingeniería en Sistemas y Ciencias de la Computación</h5>
+<center><img src="images/yo.jpg"/></center>
+<h3 align="center"> Perfil Estudiantil:</h3>
+
+<p align="justify" >estudio la carrera de ingeniería en Sistemas, son un estudiante muy proactivo,me gusta mucho la carrera debido a la interacción que 
+el usuario puede tener con las diferentes herramientas informáticas, pero especialmente me agrada mucho la seguridad informática, y en cuestión de 
+sistemas operativos me gusta mucho utilizar debian, una distribución con el kernel linux.
+</p>
+<left><img src="images/linux.jpg" width="100" height="120"/></left>
+<left><img src="images/tecnologia.jpg" width="150" height="120"/></left>
+<left><img src="images/debian.jpg" width="150" height="120"/></left>
+
+<p align="justify" >Actualmente mi objetivo principial es graduarme, luego crear mi propia empresa dedicada a la seguridad informática, de igual forma me gustaría mucho
+poder crear o modificar un sistema operativo dedicado especialmente a los ñiños y jovenes de nuestro país y que tengan la oportunidad de conocer y 
+profesionalizarse en el campo de la tecnología, porque todos merecemos una oportunidad y darse a las personas que no la tienen.
+</p>
+
+
+
+</body>
+</html>
